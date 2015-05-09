@@ -13,3 +13,62 @@ Test CSS
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+body {
+  font-family: helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+  color: red;
+  text-align: center;
+}
+header {
+	background-color: red;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	padding: 30px;
+ }
+ h1 span {
+ 	font-size: 50px;
+	opacity: .6;
+}
+section.intro {
+	  padding-top: 30px;
+	  padding-bottom: 50px;
+	  background-image: url('../images/bg-image2.jpg');
+	  background-size: cover;
+	  background-repeat: none;
+	  color: white;
+	  text-align: center;
+}
+section.intro h2{
+	  padding-top: 30px;
+	  padding-bottom: 10px;
+	  background-image: url('../images/bg-image2.jpg');
+	  background-size: cover;
+	  background-repeat: none;
+	  color: black;
+	  text-align: center;
+	  size: 50px;
+	  text-decoration: bold;
+}
+a {
+  Color: red;
+}
+p { 
+	margin: 10px
+}
+
+div.parents {
+	color: green;
+}
+img.hair {
+	width: 100%;
+	border: 3px solid black;
+}
+footer {
+	background-color: black;
+	padding: 20px;
+	color: white;
+}
+

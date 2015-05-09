@@ -19,7 +19,8 @@
     <meta name='keywords' content='newbie, web site'>
 
     <!-- This loads your CSS into the page -->
-    <link rel='stylesheet' href=''>
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/styles.css'>
 
     <!-- This loads your favicon (shows in the browser tab) -->
     <link rel='icon' type='image/png' href='images/favicon.png'>
@@ -30,18 +31,21 @@
   <body>
 
     <header>
-      <h1>OUR FAMILY</h1>
+      <h1>Our Family<span> PRATT</h1>
       </header>
-      <section>
+      <section class="intro">
         <h2>The Pratt Family</h2>
         <p>The Parents</P>
-        <p>Randy Pratt & Rachel Kettenhofen <a href='http://facebook.com' target='_blank'>Facebook Page</a></p>
+          <div class="parents">
+        <p>Randy Pratt & Rachel Kettenhofen <div><a href='http://facebook.com' target='_blank'>Facebook Page</a></p>
+          </section>
+            <section>
           <h2>Our Children</h2>
           <p>Ethan Pratt</p>
           <p>James Pratt</p>
           <h3>Pictures</h3>
           <p>
-              <img src='images/hair.jpg' />
+              <img class="hair" src='images/hair.jpg' />
           </p>
           <ul>
             <li>Birth</li>
@@ -49,9 +53,10 @@
             <li>First Words</li>
             <li>First steps</li>
           </ul>
-          <p>Copyright 2015</p>
       </section>
 
   </body> <!-- body closing tag -->
+  <footer><p>Copyright 2015</p>
+  </footer>
 
 </html> <!-- html closing tag -->
